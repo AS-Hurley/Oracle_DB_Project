@@ -163,7 +163,7 @@ You can check whether you have switched by issuing the ``show con_name;`` comman
 
 
 The sales_viewer script can be called in SQL Developer. 
-   To call the scrip in the command prompt:
+   To call the script in the command prompt:
 
 - If you have not downloaded the repository, save the sales_viewer.sql file to your Home directory by selecting the file, clicking "Raw" and then "Save as"
 - Run CMD as administrator
