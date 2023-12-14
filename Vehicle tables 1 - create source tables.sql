@@ -16,6 +16,11 @@ warranty_valid varchar2(7),
 constraint id_fk  foreign key (vehicle_id) references vehicles (vehicle_id)
 );
 
+-- Add Primary Key constraint
+
+alter table vehicle_warranty_info
+modify vehicle_id primary key;
+
 -- Populate vehicles table
 
 insert into vehicles
