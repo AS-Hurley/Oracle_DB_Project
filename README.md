@@ -13,9 +13,9 @@ The methodology included revisiting pre-existing code, adding clarifying comment
 
 - Oracle SQLDeveloper
 
-- Windows Command Prompt
+- Windows Command Prompt, to create and call scripts in SQL*Plus
 
-- ChatGPT
+- ChatGPT, for generating fictional data
 
 
 ### Challenges and Lessons:
@@ -70,15 +70,17 @@ The syntax is correct and the variables are called correctly in the WHERE clause
 
 - **Key Takeaways:** The project highlighted areas requiring experimentation, revision, or presenting challenges, including pre-existing code. Key takeaways encompass:
 
-    - Commenting complex code: Meeting the challenge of explaining intricate code functionality in a comprehensive yet concise manner.
-    - Navigating nesting conversion functions: Emphasising the necessity for attention to detail in syntax while working with nested conversion functions.
-    - Using Non-Equijoin for Range-Based Joins: Employing non-equijoins to connect records from two tables with no matching columns, based on a specified range in the condition.
-    - Utilising various types of subqueries: Exploring and implementing different types of subqueries to deepen my overall understanding of each type.
-    - Scripting Queries with Multiple Substitution Variables: Overcoming challenges posed by scripting queries with multiple substitution variables, despite limited external resources.
-    - Mastering multitable INSERT statements: Developing proficiency in multitable INSERT statements for data insertion, involving troubleshooting errors and experimenting with JOIN clauses.
-    - Employing Multitable INSERT Statements for Data Pivoting: Using multitable INSERT statements to pivot data, enabling clearer and more insightful data analysis.
-    - Utilising MERGE Statements for Data Update and Insertion:** Employing MERGE statements to efficiently update and insert data in one pass.
-    - Utilising Analytic Functions: Exploring and applying various analytic functions, such as ROW_NUMBER(), alongside associated clauses like the OVER() clause, has been a pivotal takeaway. This experience has provided valuable insights into optimising result sets, gaining a nuanced understanding of data distribution, and mastering the finer details of analytic capabilities within Oracle DB.
+    - **Commenting complex code:** Meeting the challenge of explaining intricate code functionality in a comprehensive yet concise manner.
+    - **Creating constraints:** Varying the creation of constraints inline and out of line; alongside table creation or using the ALTER TABLE statement.
+    - **Navigating nesting functions:** Emphasising the necessity for attention to detail in syntax while working with nested functions.
+    - **Using non-equijoins for range-based joins:** Employing non-equijoins to connect records from two tables with no matching columns, based on a specified range in the condition. Unlike traditional joins that rely on equalities, non-equijoins allow for flexible data matching, enhancing the versatility of SQL queries.
+    - **Utilising various types of subqueries:** Exploring and implementing different types of subqueries to deepen my overall understanding of each type.
+    - **Scripting queries with multiple substitution variables:** Overcoming challenges posed by scripting queries with multiple substitution variables, despite limited external resources.
+    - **Mastering multitable INSERT statements:** Developing proficiency in multitable INSERT statements for data insertion, troubleshooting errors, and experimenting with JOIN clauses.
+    - **Employing multitable INSERT statements for data pivoting:** Using multitable INSERT statements to pivot data, enabling clearer and more insightful data analysis.
+    - **Utilising MERGE statements for data update and insertion:** Employing MERGE statements to efficiently update and insert data in one pass.
+    - **Utilising analytic functions:** Exploring and applying various analytic functions, such as ROW_NUMBER(), PERCENTILE_CONT(), and aggregate analytic functions using the OVER() clause, has been a pivotal takeaway. This experience has provided valuable insights into optimising result sets, gaining a nuanced understanding of data distribution, and mastering the finer details of analytic capabilities within Oracle DB.
+
 
 #### Conclusion 
 
@@ -163,7 +165,7 @@ You can check whether you have switched by issuing the ``show con_name;`` comman
 
 
 The sales_viewer script can be called in SQL Developer. 
-   To call the script in the command prompt:
+   To call the script in the Windows command prompt:
 
 - If you have not downloaded the repository, save the sales_viewer.sql file to your Home directory by selecting the file, clicking "Raw" and then "Save as"
 - Run CMD as administrator
