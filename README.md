@@ -24,6 +24,7 @@ The methodology included revisiting pre-existing code, adding clarifying comment
 - **Additional Learning:** The successful implementation of certain project features required exploration of online resources. Valuable references include:
     - Oracle documentation
     - "OCA Oracle Database SQL Exam Guide (Exam 1Z0-071)" by Steve O'Hearn, providing useful syntax reminders
+    - "Oracle Database 12c: The Complete Reference" by Bob Bryla and Kevin Loney, providing information on the CONNECT BY clause
     - ChatGPT, offering clear explanations of different subquery types
     - learnsql.com, aiding in clarifying inline views
 
@@ -78,8 +79,10 @@ The syntax is correct and the variables are called correctly in the WHERE clause
     - **Scripting queries with multiple substitution variables:** Overcoming challenges posed by scripting queries with multiple substitution variables, despite limited external resources.
     - **Mastering multitable INSERT statements:** Developing proficiency in multitable INSERT statements for data insertion, troubleshooting errors, and experimenting with JOIN clauses.
     - **Employing multitable INSERT statements for data pivoting:** Using multitable INSERT statements to pivot data, enabling clearer and more insightful data analysis.
+    - **Employing the PIVOT operator for data pivoting:** Using the PIVOT operator to display crosstab data in a clearer manner.
     - **Utilising MERGE statements for data update and insertion:** Employing MERGE statements to efficiently update and insert data in one pass.
     - **Utilising analytic functions:** Exploring and applying various analytic functions, such as ROW_NUMBER(), PERCENTILE_CONT(), and aggregate analytic functions using the OVER() clause, has been a pivotal takeaway. This experience has provided valuable insights into optimising result sets, gaining a nuanced understanding of data distribution, and mastering the finer details of analytic capabilities within Oracle DB.
+    - **Scripting hierarchical queries:** Using the CONNECT BY clause to display ancestry trees.
 
 #### Conclusion 
 
@@ -180,6 +183,7 @@ Enter password: [enter the password for your username]
 ### Credits
 
  - Steve O'Hearn
+ - Bob Bryla and Kevin Loney
  - [Manish Sharma](https://www.youtube.com/watch?v=maLrgeY0InA)
  - [eCollege](https://www.ecollege.ie/), as ever
  - [learnsql.com](https://learnsql.com)
