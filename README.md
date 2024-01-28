@@ -81,7 +81,7 @@ The syntax is correct and the variables are called correctly in the WHERE clause
     - **Employing multitable INSERT statements for data pivoting:** Using multitable INSERT statements to pivot data, enabling clearer and more insightful data analysis.
     - **Employing the PIVOT operator for data pivoting:** Using the PIVOT operator to display crosstab data in a clearer manner.
     - **Utilising MERGE statements for data update and insertion:** Employing MERGE statements to efficiently update and insert data in one pass.
-    - **Utilising analytic functions:** Exploring and applying various analytic functions, such as ROW_NUMBER(), PERCENTILE_CONT(), and aggregate analytic functions using the OVER() clause, has been a pivotal takeaway. This experience has provided valuable insights into optimising result sets, gaining a nuanced understanding of data distribution, and mastering the finer details of analytic capabilities within Oracle DB.
+    - **Utilising analytic functions:** Exploring and applying various analytic functions, such as ROW_NUMBER(), and aggregate analytic functions using the OVER() clause, has been a pivotal takeaway. This experience has provided valuable insights into optimising result sets, gaining a nuanced understanding of data distribution, and mastering the finer details of analytic capabilities within Oracle DB.
     - **Scripting hierarchical queries:** Using the CONNECT BY clause to display ancestry trees.
 
 #### Conclusion 
