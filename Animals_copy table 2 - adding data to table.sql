@@ -8,6 +8,13 @@ insert all into animals_copy (puppy)
                 values ('Bella')
 select * from dual;
 
+
+-- Setting Candy's birth date to null
+
+update animals_copy
+set birth_date = null
+where puppy = 'Candy'
+
 -- Updating table with Dam names using CASE function
 
 update animals_copy

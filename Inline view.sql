@@ -6,3 +6,6 @@ from (
 select sum(salary) as total_dept_payroll
 from employees
 group by department_id);
+
+
+

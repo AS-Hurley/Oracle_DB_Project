@@ -51,7 +51,7 @@ values (animal_id_sq.nextval, 'Melissa', 'Hippopotamus', '01/08/2003', 52);
 insert into animals
 values (animal_id_sq.nextval, 'Imelda', 'Lion', '12/10/2017', 1);
 insert into animals
-values (animal_id_sq.nextval, 'Corneluis', 'Elephant', '14/02/1995', 76);
+values (animal_id_sq.nextval, 'Cornelius', 'Elephant', '14/02/1995', 76);
 insert into animals
 values (animal_id_sq.nextval, 'Tony', 'Hippopotamus', '19/07/2019', 27);
 
